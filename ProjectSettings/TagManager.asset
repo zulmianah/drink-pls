@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Cat
+  - White
+  - Trash
   layers:
   - Default
   - TransparentFX

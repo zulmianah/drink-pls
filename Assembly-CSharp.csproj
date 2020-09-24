@@ -64,8 +64,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\DrinkController.cs" />
+    <Compile Include="Assets\Scripts\HeartController.cs" />
+    <Compile Include="Assets\Scripts\LightController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PointController.cs" />
     <Compile Include="Assets\Scripts\SelamatUlangTahun.cs" />
+    <Compile Include="Assets\Scripts\ServeDrinkController.cs" />
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
       <HintPath>E:/Documents/jam/Weekly Game Jam - Week 167 - drink pls/source/drink-pls/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
