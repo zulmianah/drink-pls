@@ -8,6 +8,10 @@ TagManager:
   - Cat
   - White
   - Trash
+  - Red
+  - Yellow
+  - Blue
+  - Black
   layers:
   - Default
   - TransparentFX
