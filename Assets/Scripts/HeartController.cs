@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HeartController : MonoBehaviour
 {
@@ -26,15 +27,15 @@ public class HeartController : MonoBehaviour
     }
     void Trash()
     {
-        GameObject heart = (GameObject) hearts.GetValue(life);
-        heart.SetActive(false);
         life--;
         if (life == 0)
             GameOver();
+        GameObject heart = (GameObject) hearts.GetValue(life);
+        heart.SetActive(false);
     }
 
     private void GameOver()
     {
-        print("Game Over");
+        SceneManager.LoadScene("GameOverScene");
     }
 }

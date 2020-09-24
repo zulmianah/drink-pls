@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CatController.cs" />
     <Compile Include="Assets\Scripts\DrinkController.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\HeartController.cs" />
     <Compile Include="Assets\Scripts\LightController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
